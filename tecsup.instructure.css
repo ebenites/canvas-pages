@@ -343,7 +343,7 @@ body.body--login-confirmation {
 .cv-button i{
     width: 45px;
     height: 45px;
-     margin-right: 10px;
+    margin-right: 10px;
     vertical-align: middle;
 }
 
@@ -400,18 +400,37 @@ body.body--login-confirmation {
     margin-top: 0;
 }
 
-.cv-color-oro{
-    background-color: #cc9828;
+.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button{
+    background-color: red;
 }
-.cv-color-oro:hover{
-    background-color: #B78824;
+.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button{
+    background-color:  #cc9828;
 }
 
-.cv-color-rojo{
-    background-color: #ff0000;
+.semanas{
+    float: left;
+    display: 
+    block; 
+    width: 200px; 
+    height: 65px; 
+    background-color: #cc9828; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    color: #ffffff; 
+    margin-right: 10px; 
+    margin-top: 10px; 
+    font-weight: bold; 
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
 }
-.cv-color-rojo:hover{
-    background-color: #e50000;
+.semanas:hover{
+    background-color: #B78824;
+}
+.img-space{
+    margin-right: 10px;
+    width: 50px;
 }
 
 
