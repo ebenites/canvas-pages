@@ -400,11 +400,18 @@ body.body--login-confirmation {
     margin-top: 0;
 }
 
-/* Colores */
-.cv-cian{
-    background-color: cornflowerblue;
+.cv-color-oro{
+    background-color: #cc9828;
+}
+.cv-color-oro:hover{
+    background-color: #B78824;
 }
 
-.cv-red{
-    background-color: red;
+.cv-color-rojo{
+    background-color: #ff0000;
 }
+.cv-color-rojo:hover{
+    background-color: #e50000;
+}
+
+
