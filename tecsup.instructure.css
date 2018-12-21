@@ -403,7 +403,7 @@ body.body--login-confirmation {
 .cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button{
     background-color: #ff151f;
 }
-.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button, .semanas{
+.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button{
     background-color:  #cc9828;
 }
 .cv-color-cian .cv-subtitle, .cv-color-cian .cv-button{
@@ -432,6 +432,29 @@ body.body--login-confirmation {
     color: white;
     background-color: #B78824;
 }
+.semanas-r{
+    float: left;
+    display: 
+    block; 
+    width: 200px; 
+    height: 65px; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    color: #ffffff; 
+    margin-right: 10px; 
+    margin-top: 10px; 
+    font-weight: bold; 
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #ff151f;
+}
+.semanas-r:hover{
+    font-size: 18px;
+    color: white;
+    background-color: #e5121b;
+}
 .img-space{
     margin-right: 10px;
     width: 50px;
@@ -453,6 +476,30 @@ body.body--login-confirmation {
     font-size: 18px;
     color: white;
     background-color: #B78824;
+}
+.title-docente-r{
+    background-color: #ff151f; 
+    color: #ffffff;
+    font-size: 20px;
+    width: 350px; 
+    padding: 10px; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    text-align: center;
+}
+.title-docente-r:hover{
+    font-size: 18px;
+    color: white;
+    background-color: #e5121b;
+}
+.subtitle-docente-r{
+    width: 300px; 
+    max-width: 300px; 
+    background-color: #ff151f; 
+    color: #ffffff; 
+    padding: 15px;
+    margin: 0 auto; 
+    text-align: center;
 }
 
 
