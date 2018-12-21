@@ -406,7 +406,9 @@ body.body--login-confirmation {
 .cv-color-oro .cv-subtitle, .cv-color-oro .cv-button, .semanas{
     background-color:  #cc9828;
 }
-
+.cv-color-cian .cv-subtitle, .cv-color-cian .cv-button{
+    background-color:  #00b1f7;
+}
  .semanas{
     float: left;
     display: 
@@ -436,6 +438,16 @@ body.body--login-confirmation {
 }
 .bordes{
     border-radius: 10px;
+}
+.title-docente{
+    background-color: #cc9828; 
+    color: #ffffff;
+    font-size: 20px;
+    width: 350px; 
+    padding: 10px; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    text-align: center;
 }
 
 
