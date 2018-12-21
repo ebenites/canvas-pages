@@ -400,8 +400,8 @@ body.body--login-confirmation {
     margin-top: 0;
 }
 
-.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button,{
-    background-color: red;
+.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button{
+    background-color: #ff151f;
 }
 .cv-color-oro .cv-subtitle, .cv-color-oro .cv-button, .semanas{
     background-color:  #cc9828;
@@ -448,6 +448,11 @@ body.body--login-confirmation {
     margin-top: 15px; 
     margin-bottom: 15px; 
     text-align: center;
+}
+.title-docente:hover{
+    font-size: 18px;
+    color: white;
+    background-color: #B78824;
 }
 
 
