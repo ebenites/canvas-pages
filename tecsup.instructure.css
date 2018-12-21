@@ -400,20 +400,19 @@ body.body--login-confirmation {
     margin-top: 0;
 }
 
-.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button{
+.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button,{
     background-color: red;
 }
-.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button{
+.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button, .semanas{
     background-color:  #cc9828;
 }
 
-.semanas{
+ .semanas{
     float: left;
     display: 
     block; 
     width: 200px; 
     height: 65px; 
-    background-color: #cc9828; 
     text-align: center; 
     padding-top: 20px; 
     padding-left: 10px; 
@@ -424,13 +423,21 @@ body.body--login-confirmation {
     text-decoration: none;
     font-size: 12px;
     border-radius: 10px;
+    background-color:#cc9828 ;
 }
 .semanas:hover{
+    font-size: 18px;
+    color: white;
     background-color: #B78824;
 }
 .img-space{
     margin-right: 10px;
     width: 50px;
 }
+.bordes{
+    border-radius: 10px;
+}
+
+
 
 
