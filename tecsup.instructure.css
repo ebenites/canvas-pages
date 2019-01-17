@@ -400,19 +400,21 @@ body.body--login-confirmation {
     margin-top: 0;
 }
 
-.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button{
+.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button, .cv-color-rojo .title-modulo,
+.cv-color-rojo .subtitle-modulo, .cv-color-rojo .title-general, .cv-color-rojo .enlace-linkedin{
     background-color: #ff151f;
 }
-.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button{
+.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button, .cv-color-oro .title-modulo,
+.cv-color-oro .subtitle-modulo, .cv-color-oro .title-general, .cv-color-oro .enlace-linkedin{
     background-color:  #cc9828;
 }
-.cv-color-cian .cv-subtitle, .cv-color-cian .cv-button{
+.cv-color-cian .cv-subtitle, .cv-color-cian .cv-button, .cv-color-cian .title-modulo, 
+.cv-color-cian .subtitle-modulo, .cv-color-cian .title-general, .cv-color-cian .enlace-linkedin{
     background-color:  #00b1f7;
 }
  .semanas{
     float: left;
-    display: 
-    block; 
+    display: block; 
     width: 200px; 
     height: 65px; 
     text-align: center; 
@@ -434,8 +436,7 @@ body.body--login-confirmation {
 }
 .semanas-r{
     float: left;
-    display: 
-    block; 
+    display: block; 
     width: 200px; 
     height: 65px; 
     text-align: center; 
@@ -455,52 +456,83 @@ body.body--login-confirmation {
     color: white;
     background-color: #e5121b;
 }
+.semanas-c{
+    float: left;
+    display: block; 
+    width: 200px; 
+    height: 65px; 
+    text-align: center; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    color: #ffffff; 
+    margin-right: 10px; 
+    margin-top: 10px; 
+    font-weight: bold; 
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #00b1f7;
+}
+.semanas-c:hover{
+    font-size: 18px;
+    color: white;
+    background-color: #1588b6;
+}
 .img-space{
     margin-right: 10px;
     width: 50px;
 }
-.bordes{
+
+.title-general{
+    color: #ffffff;
+    font-size: 20px;
+    width: 350px; 
+    padding: 10px; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    text-align: center;
     border-radius: 10px;
 }
-.title-docente{
-    background-color: #cc9828; 
-    color: #ffffff;
-    font-size: 20px;
-    width: 350px; 
-    padding: 10px; 
-    margin-top: 15px; 
-    margin-bottom: 15px; 
-    text-align: center;
-}
-.title-docente:hover{
-    font-size: 18px;
-    color: white;
-    background-color: #B78824;
-}
-.title-docente-r{
-    background-color: #ff151f; 
-    color: #ffffff;
-    font-size: 20px;
-    width: 350px; 
-    padding: 10px; 
-    margin-top: 15px; 
-    margin-bottom: 15px; 
-    text-align: center;
-}
-.title-docente-r:hover{
-    font-size: 18px;
-    color: white;
-    background-color: #e5121b;
-}
-.subtitle-docente-r{
+
+.enlace-linkedin{
     width: 300px; 
-    max-width: 300px; 
-    background-color: #ff151f; 
+    max-width: 300px;     
     color: #ffffff; 
     padding: 15px;
     margin: 0 auto; 
     text-align: center;
+    border-radius: 10px;
 }
+
+/* Estilos modulos*/
+.cv-color-rojo .bienvenida-modulo{
+    color: #ff151f;
+}
+.cv-color-oro .bienvenida-modulo{
+    color: #cc9828
+}
+.cv-color-cian .bienvenida-modulo{
+    color: #00b1f7;
+}
+.bienvenida-modulo{    
+    padding-left: 10px; 
+    text-align: center; 
+    font-weight: bold;
+}
+
+.title-modulo{    
+    display: block; 
+    padding: 10px; 
+    color: #ffffff; 
+    text-align: center; 
+    text-decoration: none;
+}
+
+.subtitle-modulo{    
+    padding: 10px; 
+    color: #ffffff;
+}
+
 
 
 
