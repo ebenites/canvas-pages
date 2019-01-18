@@ -292,8 +292,16 @@ body.body--login-confirmation {
 
 /*** Viewer fullscreen ***/
 
-#assignment_show {
+body.ic-framed-lti-tool.assignments #assignment_show { /* Ocultar título */
 	display: none;
+}
+
+body.ic-framed-lti-tool.assignments #sequence_footer { 
+	padding-top: 0;
+}
+
+body.ic-framed-lti-tool.assignments .module-sequence-footer .module-sequence-footer-content {
+	border-top: none;
 }
 
 body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-wrapper {
