@@ -290,6 +290,34 @@ body.body--login-confirmation {
 }
 
 
+/*** Viewer fullscreen ***/
+
+#assignment_show {
+	display: none;
+}
+
+body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-wrapper {
+    max-width: inherit;
+}
+
+@media only screen and (min-width: 1140px){
+	body.ic-framed-lti-tool.assignments.course-menu-expanded:not(.ic-no-flex-layout):not(.embedded) .ic-app-main-content {
+		display: inherit;
+		display: inherit;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	body.ic-framed-lti-tool.assignments:not(.course-menu-expanded):not(.ic-no-flex-layout):not(.embedded) .ic-app-main-content {
+		display: inherit !important;
+		display: inherit !important;
+	}
+}
+
+
+/*** END Viewer fullscreen ***/
+
+
 /*********************
     Frontpage 
 *********************/
