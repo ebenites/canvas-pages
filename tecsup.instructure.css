@@ -350,12 +350,16 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
 }
 .cv-menubar>div{
     float: left; 
-    width: 175px;
+    /*width: 175px;*/
 }
 .cv-menubar>div a.cv-button{
-    margin-left: 10px;
+    margin-right: 10px;
 }
-.cv-menubar>div:first-child a.cv-button{
+.cv-menubar>div:first-child a.cv-button{   
+    margin-left: 0px;
+}
+.cv-menubar>div:last-child a.cv-button{
+    margin-right: 0px;
     margin-left: 0px;
 }
 
@@ -365,11 +369,12 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
 	font-size: 12px;
     font-weight: bold; 
     text-decoration: none !important;
-/*	width: 150px;*/
+    width: 147.5px;
 	padding: 10px;
 /*	text-align: center;*/
 	border-radius: 10px;
     display: block;
+    margin-bottom: 10px;
 }
 .cv-button:hover{
     background-color: #002e53;
@@ -455,7 +460,6 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     height: 65px; 
     text-align: center; 
     padding-top: 20px; 
-    padding-left: 10px; 
     color: #ffffff; 
     margin-right: 10px; 
     margin-top: 10px; 
@@ -477,7 +481,6 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     height: 65px; 
     text-align: center; 
     padding-top: 20px; 
-    padding-left: 10px; 
     color: #ffffff; 
     margin-right: 10px; 
     margin-top: 10px; 
@@ -499,7 +502,6 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     height: 65px; 
     text-align: center; 
     padding-top: 20px; 
-    padding-left: 10px; 
     color: #ffffff; 
     margin-right: 10px; 
     margin-top: 10px; 
@@ -538,6 +540,25 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     margin: 0 auto; 
     text-align: center;
     border-radius: 10px;
+}
+/*Resumen de semanas*/
+.cv-imagen-res{
+    width: 100%;
+    height:100%;     
+    margin-bottom: 10px;
+}
+.cv-imagen{
+    width:100%;
+    height: 100%;
+    margin-bottom: 13.5px;
+}
+.cv-row{
+    width: 100%;
+    max-width: 830px;
+}
+.cv-box{
+    width: 90%;
+    margin-left:40px;
 }
 
 /* Estilos modulos*/
