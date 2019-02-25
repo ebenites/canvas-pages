@@ -468,25 +468,7 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
 .cv-color-cian .semanas{
     background-color:  #00b1f7;
 }
- .semanas{
-    float: left;
-    display: block; 
-    width: 200px; 
-    height: 65px; 
-    text-align: center; 
-    padding-top: 20px; 
-    color: #ffffff; 
-    margin-right: 10px; 
-    margin-top: 10px; 
-    font-weight: bold; 
-    text-decoration: none;
-    font-size: 12px;
-    border-radius: 10px;
-}
-.semanas:hover{
-    font-size: 18px;
-    color: white;
-}
+/***Clases por elimminar***/
 .semanas-r{
     float: left;
     display: block; 
@@ -529,6 +511,8 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     color: white;
     background-color: #1588b6;
 }
+/****END****/
+
 .img-space{
     margin-right: 10px;
     width: 50px;
