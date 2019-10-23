@@ -655,7 +655,7 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     background-color:  #cc9828;
 }
 
-.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button,
+.cv-color-rojo .cv-subtitle, .cv-color-rojo .cv-button,
 .cv-color-45687 .cv-subtitle, .cv-color-45687 .cv-button,
 .cv-color-28667 .cv-subtitle, .cv-color-28667 .cv-button,
 .cv-color-33038 .cv-subtitle, .cv-color-33038 .cv-button,
@@ -664,9 +664,9 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
 .cv-color-53046 .cv-subtitle, .cv-color-53046 .cv-button,
 .cv-color-33036 .cv-subtitle, .cv-color-33036 .cv-button,
 .cv-color-24899 .cv-subtitle, .cv-color-24899 .cv-button,
-.cv-color-45687 .cv-subtitle, .cv-color-45687 .cv-button
+.cv-color-16 .cv-subtitle, .cv-color-16 .cv-button
 {
-    background-color:  #cc9828;
+    background-color:  #d41934;
 }
 
 .cv-color-cian .cv-subtitle, .cv-color-cian .cv-button,
