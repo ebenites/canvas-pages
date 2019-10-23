@@ -292,7 +292,7 @@ body.body--login-confirmation {
 
 /*** Viewer fullscreen ***/
 
-body.ic-framed-lti-tool.assignments #assignment_show { /* Ocultar título */
+body.ic-framed-lti-tool.assignments #assignment_show { /* Ocultar titulo */
 	display: none;
 }
 
@@ -487,6 +487,16 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     font-size: 18px;
     color: white;
 }
+
+/* Icono en semanas */
+
+.semanas i{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
 .semanas-r{
     float: left;
     display: block; 
@@ -529,8 +539,6 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     color: white;
     background-color: #1588b6;
 }
-			 
-
 .img-space{
     margin-right: 10px;
     width: 50px;
@@ -545,6 +553,13 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     margin-bottom: 15px; 
     text-align: center;
     border-radius: 10px;
+}
+
+.title-general i{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .enlace-linkedin{
@@ -617,3 +632,45 @@ body.ic-framed-lti-tool.assignments:not(.full-width):not(.outcomes) .ic-Layout-w
     color: #ffffff;
 }
 
+
+/* Frontpage extend */
+
+.cv-intro, div[class^="cv-color-"] {
+	width: 100%; 
+	max-width: 700px;
+}
+
+.cv-banner {
+	position: relative;
+}
+
+.cv-capacities {
+	border: 1px solid #666666; 
+	padding: 10px;
+}
+
+.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button,
+.cv-color-24897 .cv-subtitle, .cv-color-24897 .cv-button
+{
+    background-color:  #cc9828;
+}
+
+.cv-color-oro .cv-subtitle, .cv-color-oro .cv-button,
+.cv-color-45687 .cv-subtitle, .cv-color-45687 .cv-button,
+.cv-color-28667 .cv-subtitle, .cv-color-28667 .cv-button,
+.cv-color-33038 .cv-subtitle, .cv-color-33038 .cv-button,
+.cv-color-53050 .cv-subtitle, .cv-color-53050 .cv-button,
+.cv-color-53048 .cv-subtitle, .cv-color-53048 .cv-button,
+.cv-color-53046 .cv-subtitle, .cv-color-53046 .cv-button,
+.cv-color-33036 .cv-subtitle, .cv-color-33036 .cv-button,
+.cv-color-24899 .cv-subtitle, .cv-color-24899 .cv-button,
+.cv-color-45687 .cv-subtitle, .cv-color-45687 .cv-button
+{
+    background-color:  #cc9828;
+}
+
+.cv-color-cian .cv-subtitle, .cv-color-cian .cv-button,
+.cv-color-0 .cv-subtitle, .cv-color-0 .cv-button
+{
+    background-color:  #00b1f7;
+}
